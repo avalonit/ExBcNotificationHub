@@ -25,12 +25,15 @@
       "name": "Base Application",
       "version": "15.0.0.0"
     }
-  ],  "screenshots": [],
+  ],
+  "screenshots": [],
   "runtime": "4.0",
-  "logo" : "Logo/prime365.png",
+  "logo": "Logo/prime365.png",
   "idRange": {
-    "from": 70359924, 
+    "from": 70359924,
     "to": 703599999
   },
-  "features": [ "TranslationFile" ]
+  "features": [
+    "TranslationFile"
+  ]
 }

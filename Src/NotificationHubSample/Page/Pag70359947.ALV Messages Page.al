@@ -58,7 +58,7 @@ page 70359947 "ALV Messages Page"
 
                 trigger OnAction();
                 begin
-                    SendPushNotification(Text);
+                    //SendPushNotification(Text);
                 end;
             }
 
@@ -66,13 +66,6 @@ page 70359947 "ALV Messages Page"
 
         }
     }
-
-    procedure SendPushNotification(Text: Text);
-    var
-    //VRPAPP365FleetTrackerAzBlobMgt: Codeunit VRPAPP365FleetTrackerAzBlobMgt;
-    begin
-        //VRPAPP365FleetTrackerAzBlobMgt.SyncWithStorage(EquipmentID);
-    end;
 
 
 }
