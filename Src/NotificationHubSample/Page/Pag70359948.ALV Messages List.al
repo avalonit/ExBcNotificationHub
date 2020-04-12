@@ -42,17 +42,7 @@ page 70359948 "ALV Messages List"
     {
         area(Processing)
         {
-            action("Placeholder for action")
-            {
-                ApplicationArea = All;
-
-                trigger OnAction();
-                begin
-
-                end;
-            }
-
-            action("Send a greeting")
+            action("Send a push notification")
             {
                 Promoted = true;
                 PromotedCategory = Process;
@@ -85,21 +75,8 @@ page 70359948 "ALV Messages List"
             }
         }
 
-        area(Reporting)
-        {
-            group(NewSubGroup)
-            {
-                Caption = 'Edit Message';
-                group(MyGroup)
-                {
-                    action("Edit Driver")
-                    {
-                        ApplicationArea = All;
-                        RunObject = page "ALV Messages Page";
-                    }
-                }
-            }
-        }
+
     }
+
 
 }

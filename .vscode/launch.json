@@ -11,6 +11,18 @@
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true
-        }
+        },
+        {
+            "name": "BCONLINE",
+            "type": "al",
+            "request": "launch",
+            "server": "https://businesscentral.dynamics.com",
+            "serverInstance": "3c9c4b25-e43a-4050-ba5a-9f850281fe47/Sandbox",
+            "authentication": "AAD",
+            "startupObjectId": 70359947,
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "schemaUpdateMode": "Synchronize"
+        },
     ]
 }

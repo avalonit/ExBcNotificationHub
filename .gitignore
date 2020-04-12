@@ -193,3 +193,14 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 .vscode/settings.json
+.vscode/launch.json
+.vscode/rad.json
+Alberto Valenti_Business Central Notification App Sample_3.0.0.16.app
+.alpackages/Microsoft_Base Application_15.4.41023.42177.app
+.alpackages/Microsoft_System Application_15.4.41023.42177.app
+.alpackages/Microsoft_System_15.0.40939.41271.app
+.vscode/launch.json
+.alpackages/
+.vscode/
+*.xlf
+launch.json
