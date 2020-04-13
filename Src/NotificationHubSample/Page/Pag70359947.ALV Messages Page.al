@@ -57,8 +57,10 @@ page 70359947 "ALV Messages Page"
                 ApplicationArea = All;
 
                 trigger OnAction();
+                var
+                    push: Codeunit "ALV Send Push Notification";
                 begin
-                    //SendPushNotification(Text);
+                    push.SendPush(Text);
                 end;
             }
 

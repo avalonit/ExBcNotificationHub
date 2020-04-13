@@ -47,9 +47,12 @@ page 70359948 "ALV Messages List"
                 Promoted = true;
                 PromotedCategory = Process;
                 ApplicationArea = All;
+
                 trigger OnAction()
+                var
+                    push: Codeunit "ALV Send Push Notification";
                 begin
-                    Message('Hello World');
+                    push.SendPush(Text);
                 end;
             }
 
